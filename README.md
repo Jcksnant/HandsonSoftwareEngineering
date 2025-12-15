@@ -1,6 +1,6 @@
 # Playwright Calendar Automation Project
 
-##Overview
+Overview
 
 This project is an end-to-end automated testing framework built with **Playwright (Python)** and **pytest** to validate core calendar and meeting functionality in the GrabDocs.
 
@@ -13,29 +13,29 @@ The goal of this project is to demonstrate:
 
 ---
 
-##Features Tested
+Features Tested
 
 The test suite validates the following objectives:
 
-##Calendar
+Calendar
 - Switch between months in the calendar view
 - Verify calendar updates correctly
 
-##Create Meeting
+Create Meeting
 - Create a new meeting event
 - Fill event title, description, location, and participants
 - Add email invitees
 - Configure reminders
 - Submit the event successfully
 
-##Join & Record Meeting *(Conditional)*
+Join & Record Meeting *(Conditional)*
 - Open an existing meeting
 - Join the meeting (only if its available)
 - Start and stop recording (only if meeting allows it)
 
 > **Note:** Join and Record features may not be available if the meeting is scheduled in the future or does not support live sessions. These tests are conditionally skipped when the UI does not expose the required buttons.
 
-## Tech Stack
+Tech Stack
 
 - **Python 3.13**
 - **Playwright (sync API)**
@@ -45,7 +45,7 @@ The test suite validates the following objectives:
 
 ---
 
-## Project Structure
+Project Structure
 
 ```text
 PlaywrightCalenderProject/
